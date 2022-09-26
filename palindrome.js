@@ -13,9 +13,10 @@ function is_palindrome(str){
   return 1;
 }
 
+//brute force method, complexity O(n2 + n)
 function find_longest_palindrome(str){
-console.log('find_longest_palindrome: ');
-	let longestPalindrome;
+  console.log('find_longest_palindrome: ');
+  let longestPalindrome;
   let longestPalindromeLength = 0;
   let isPal;
   let len = str.length;
